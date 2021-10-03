@@ -1,0 +1,122 @@
+
+
+.card {
+  border: 1px solid rgba(0, 0, 0, .1);
+  border-radius: 2px;
+  height: 260px;
+  padding-left: 0;
+  margin-bottom: 15px;
+}
+
+
+.wrap-thumbnail {
+  height: 258px;
+  flex: 0 0 auto;
+}
+
+.thumbnail {
+  background-size: cover;
+  height: 100%;
+  display: block;
+  background-position: 38% 22% !important;
+  background-origin: border-box !important;
+  border-top-left-radius: 2px;
+}
+
+.card-block {
+  padding-left: 0;
+}
+
+h2.card-title, .list-recent h2.card-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+h2.card-title a, .list-recent h2.card-title a {
+  color: rgba(0, 0, 0, .8);
+}
+
+h2.card-title a:hover, .list-recent h2.card-title a:hover {
+  color: rgba(0, 0, 0, .6);
+  text-decoration: none;
+}
+
+h4.card-text, .list-recent h4.card-text {
+  color: rgba(0, 0, 0, .44);
+  font-size: 0.95rem;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+.wrap-footer {
+  position: absolute;
+  bottom: 20px;
+  font-size: 12px;
+  display: block;
+  width: 85%;
+}
+
+
+.author-thumb {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-right: 13px;
+  border-radius: 100%;
+}
+
+.post-top-meta {
+  margin-bottom: 2rem;
+}
+
+.post-top-meta .author-thumb {
+  width: 72px;
+  height: 72px;
+}
+
+.post-top-meta.author-page .author-thumb {
+  margin-top: 40px;
+}
+
+.post-top-meta span {
+  font-size: 0.9rem;
+  color: rgba(0, 0, 0, .44);
+  display: inline-block;
+}
+
+.post-top-meta .author-description {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-size: 0.95rem;
+}
+
+.author-meta {
+  flex: 1 1 auto;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+  overflow: hidden !important;
+}
+
+span.post-name, span.post-date, span.author-meta {
+  display: inline-block;
+}
+
+span.post-date, span.post-read {
+  color: rgba(0, 0, 0, .44);
+}
+
+span.post-read-more {
+  align-items: center;
+  display: inline-block;
+  float: right;
+  margin-top: 8px;
+}
+
+span.post-read-more a {
+  color: rgba(0, 0, 0, .44);
+}
+
+span.post-name a, span.post-read-more a:hover {
+  color: rgba(0, 0, 0, .8);
+}
